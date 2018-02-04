@@ -2,17 +2,68 @@
 /*Main CSS*/
       body {
         padding-top: 54px;
+        /*Added-temporary*/
+
+
       }
       @media (min-width: 992px) {
         body {
           padding-top: 56px;
         }
       }
-
+/*Added --remove if issues*/
+      html {
+        position: relative;
+        min-height: 100%;
+    }
 #col-md-3 {
   margin: 0 auto;
 }
 
 #col-md-6 {
-  margin: 0 auto;
+  margin: 0 auto; 
+}
+
+#submit_btn {
+  font-size: 25px;
+  margin:auto;
+  display:block;
+}
+
+/*FOOTER*/
+
+.footer-bottom {
+  margin-top: 20px;
+  position: absolute;
+    background-color: #15224f;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+
+.programs-margin{
+  margin-top: 50px;
+}
+
+#main-jumbotron {
+  background-image: url("../img/main-jumbo.jpg");
+  color: white;
+  font-weight: bold;
+  
 }
