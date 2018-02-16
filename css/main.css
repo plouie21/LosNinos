@@ -63,7 +63,22 @@
 
 #main-jumbotron {
   background-image: url("../img/main-jumbo.jpg");
+ background-size:cover;
   color: white;
   font-weight: bold;
+  
+}
+
+#about-jumbotron {
+  background-image: url("../img/about-jumbo.jpg");
+  background-size:cover;
+  color: white;
+  font-weight: bold;
+  width:100%;
+  
+}
+.roundimg {
+  width:80%;
+  height: auto;
   
 }
