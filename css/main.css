@@ -82,3 +82,22 @@
   height: auto;
   
 }
+
+#help-jumbotron {
+  background-image: url("../img/help-jumbo.jpg");
+  background-size:cover;
+  color: white;
+  font-weight: bold;
+  width:100%;
+  
+}
+
+#benef-jumbotron {
+  background-image: url("../img/benef-jumbo.jpg");
+  background-size:cover;
+  color: white;
+  font-weight: bold;
+  width:100%;
+  
+}
+
